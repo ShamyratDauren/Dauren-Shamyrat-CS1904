@@ -1,13 +1,13 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
+
 int main() {
-    int a, n, p = 1;
-    cin >> a >> n;
-    for (int i = 1; i <= n; i++) {
-        p *= pow((a + i), 2);
+    int a = 0;
+    for (char i = 'a'; i <= 'z'; i++) {
+        if (a % 5 == 0 && a != 0)
+            cout << endl;
+        cout << char(i - 32) << i << ' ';
+        a++;
     }
-    cout << p;
     return 0;
 }
-

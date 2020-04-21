@@ -1,4 +1,9 @@
 package com.company;
+/*
+Create 2 interfaces ExcellentStudent with field excellentScholarship and BadStudent with field badScholarship.
+Create class GoodStudent and implement it from 2 interfaces ExcellentStudent and BadStudent.
+Add to class GoodStudent scholarship field. And initialize scholarship as average value from excellentScholarship + badScholarship.
+ */
 
 interface ExcellentStudents{
     public int ExcellentScholarship();;

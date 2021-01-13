@@ -1,4 +1,4 @@
-def Encrypt(word, key):                #encryption process in OTP  give a word and a key
+def Encrypt(word, key):                #encryption process in OTP give a word and a key
     a_word = []                        #create empty arrays
     a_key = []
     a_ciphertext = []
